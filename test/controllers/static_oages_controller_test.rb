@@ -10,5 +10,4 @@ class StaticOagesControllerTest < ActionDispatch::IntegrationTest
     get static_oages_help_url
     assert_response :success
   end
-
 end
